@@ -123,6 +123,7 @@ add_library(mavros_extras_plugins SHARED
   src/plugins/vision_pose_estimate.cpp
   src/plugins/vision_speed_estimate.cpp
   src/plugins/wheel_odometry.cpp
+  src/plugins/hoverfly_baro.cpp
   # [[[end]]] (checksum: e9b770ce685f15417fe9a859f1157b88)
 )
 ament_target_dependencies(mavros_extras_plugins

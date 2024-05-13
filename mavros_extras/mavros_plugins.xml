@@ -99,6 +99,13 @@ Send and receive setpoint positions from FCU controller.</description>
     <description>@brief Hil plugin
 @plugin hil</description>
   </class>
+
+  <class name="hoverfly_baro" type="mavros::plugin::PluginFactoryTemplate&lt;mavros::extra_plugins::HoverflyBaroPlugin&gt;" base_class_type="mavros::plugin::PluginFactory">
+    <description>@brief HoverflyBaro plugin
+@plugin hoverfly_baro
+Send updated pressure data from all three baros.</description>
+
+  </class>
   <class name="landing_target" type="mavros::plugin::PluginFactoryTemplate&lt;mavros::extra_plugins::LandingTargetPlugin&gt;" base_class_type="mavros::plugin::PluginFactory">
     <description>@brief Landing Target plugin
 @plugin landing_target
